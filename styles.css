@@ -15,7 +15,7 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url('background.png');
+    background-image: url('images.jpeg');
 }
 header a{
     text-decoration: none;
@@ -111,15 +111,17 @@ footer{
     display: table;
     clear: both;
 }
+/*rgba(241, 213, 213, 0.8);
+*/
 #contact{
     background-color: rgba(241, 213, 213, 0.8);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 50px;
+    padding-top: 130px;
     padding-bottom: 70px;
     text-align: center;
-    height: 340px;
+    height: 570px;
 }
 .btn2{
     border: 1px solid green;
@@ -173,7 +175,7 @@ form{
     width:500px;
     background-color: white;
     box-shadow: 0 0 20px 0 #999;
-    top:205%;
+    top:150px;
     left:45%;
     position: absolute;
     transform: translate(-50%,-50%);
@@ -192,9 +194,9 @@ form{
   .social ul{
     display: flex;
     position: absolute;
-    padding: 320px;
-    margin: 50;
-    left: 21%;
+    padding: 300px;
+    
+    
     margin-left: 10px;
   }
   .social ul li{
