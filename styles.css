@@ -10,18 +10,20 @@ body{
     width: auto;
     margin: auto;
     overflow: hidden;
+    
 }
-header{
+
+.sec1{
     height: 100vh;
     background-size: cover;
     background-position: center;
-    background-image: url('images.jpeg');
+    background-image: url('pex.jpg');
+  
 }
 header a{
     text-decoration: none;
     text-transform: uppercase;
     font: 10;
-
 }
 header ul{
     margin: 0;
@@ -34,19 +36,52 @@ header li{
 }
 header nav{
     float: right;
-    margin-top: 10px;
-
+    margin-top: 0px;
+    position: fixed;
+    width: 100%;
+    padding:10px 90px;
+    background: white;
+    box-sizing:border-box;
 }
-header a:hover{
-    color: #cccccc;
+header nav ul{
+    list-style: none;
+    float:right;
+    margin:0;
+    padding:0;
+}
+header nav ul li a {
+    line-height: 40px;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:15px;
     font-weight: bold;
 }
-.name{
-    text-align: left;
-    margin: 20px;
-    line-height: 4.5;
-    padding-left: 50px;
+header a:hover{
+    color: #000;
+    font-weight: bold;
 }
+
+.name{
+    padding:130px;
+    margin-left: 0px;
+}
+.custom{
+    column-count: 2;
+    background-color: antiquewhite;
+    background-size:cover;
+    padding:70px;
+}
+.custom li{
+    border:1px solid #777;
+    border-radius: 3px;
+    outline:none;
+    color: black;
+    padding: 04px;
+    text-decoration: none;
+    margin:10px;
+}
+
 .typed-txt{
     font-weight: bold;
     font-size: 35px;
@@ -57,7 +92,7 @@ header a:hover{
     display: inline-block;
     width:3px;
     background-color: #ccc;
-    margin-left: 0.1rem;
+    
     animation: blink 1s infinite;
 }
 .cursor.typing{
@@ -85,32 +120,40 @@ header a:hover{
     color:green;
     text-decoration: none;
 }
+
 .btn:hover{
     background-color: burlywood;
     color: #000;
 }
+.btn2{
+    border: 1px solid green;
+    padding: 10px 30px;
+    color:green;
+    text-decoration: none;
+}
 footer{
-    padding: 380px;
-    margin-top : 30px;
+    padding: 20px;
     color: red;
     text-align: center;
     line-height: 0.2;
     font-size: 15px;
- 
+    bottom:0;
+    width:100%;
+    background: black;
+    height: 80px;
+  
+}
+.image{
+    width: 350px;
+    height:350px;
+    margin:6px;
+    float:right;   
 }
 .me{
-    text-align: center;
+    text-align: left;
+    margin:50px;
+}
 
-}
-.column {
-    float: left;
-    width: 50%;
-  }
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 /*rgba(241, 213, 213, 0.8);
 */
 #contact{
@@ -123,18 +166,6 @@ footer{
     text-align: center;
     height: 570px;
 }
-.btn2{
-    border: 1px solid green;
-    padding: 10px 30px;
-    color:white;
-    text-decoration: none;
-    margin-left: 260px;
-    margin-right: 220px;
-}
-.btn2:hover{
-    background-color: burlywood;
-    color: #000;
-}
 .button{
     position: absolute;
     top: 70%;
@@ -146,12 +177,7 @@ footer{
 .button2{
     padding-bottom: 20px;
 }
-.contact-us{
-    width: 65%;
-    position: absolute;
-    font-size: 14px;
-    left:14%;
-}
+
 .touch{
     padding-top: 0px;
     margin-top: 0px;
@@ -159,6 +185,13 @@ footer{
 
 form{
     margin:20px;
+}
+.submit-btn{
+    cursor:pointer;
+    width:100px;
+    margin-left:18px;
+    border:none;
+    border-radius: 20px;
 }
 .input-field{
     width:400px;
@@ -171,31 +204,24 @@ form{
     outline:none;
     color: black;
 }
+
 .con{
     width:500px;
     background-color: white;
     box-shadow: 0 0 20px 0 #999;
-    top:150px;
+    top:1600px;
     left:45%;
     position: absolute;
     transform: translate(-50%,-50%);
 }
-.baton{
-    border-radius:20px;
-    color:#fff;
-    margin-top: 18px;
-    padding:10px;
-    border: none;
-    font-size: 12px;
-    background-color: #47c35a;
-    cursor: pointer;
-}
 
+.social{
+    margin:310px;
+    margin-left: 240px;
+}
   .social ul{
     display: flex;
     position: absolute;
-    padding: 300px;
-    
     
     margin-left: 10px;
   }

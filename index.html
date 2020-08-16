@@ -7,9 +7,10 @@
         <link href= "./styles.css" rel="stylesheet" type="text/css">  
     </head>
 <body>
+    
     <header>
     <!---Home--->
-    <div class ="container">
+    
         <nav>
             <ul>
                 <li><a href= "index.html">Home</a></li>
@@ -18,62 +19,76 @@
                 <li><a href= "contact.html">Contact</a></li>
             </ul>
         </nav>
+        <section class = "sec1">
         <div class="button">
             <a href="https://www.linkedin.com/in/rehan-edin/" class="btn">LinkedIn</a>
             <a href="#" class="btn">Resume</a>
         </div>
-    <h1>Rehan Edin</h1>
-    <span class = "cursor"></span> <span class = "typed-txt"></span>
-</div>
+        <div class ="name">
+            <h1>Rehan Edin</h1>
+            <span class = "cursor"></span> <span class = "typed-txt"></span></section>
+        </div>
 </header>
 
     <!---About--->
     <section>
         <div class ="container">
-            <p class="me"> Hi! I am Rehan, a junior at Columbia University studying Data Science. I am a ML enthusiast, social justice
-            advocate and a sudoku fan.
+           
+            <img src="pi.jpeg" class = "image">
+            <h3 class = "me">About Me:</h3>
+            <p class="me"> Hi! I am Rehan, a junior at Columbia University studying Data Science. I am a Machine Learning enthusiast passionate about predictive analytics and I have explored it by doing Zindi 
+            and Kaggle challenges. I have a background in product management and I have a data driven approach to problem solving. In my free time, I relax actively by playing sudoku and passively by connecting with nature. 
             </p>
+            
         </div>
     </section>
 
 <!---skills--->
     <section>
-        <div class = "container">
+       
+            <div class = "custom">
             <h3>Languages</h3>
-            <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>SQL</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            </ul>
-
+           
+            <button class = "btn2">Java</button>
+            <button class = "btn2">Python</button>
+            <button class = "btn2">SQL</button>
+            <button class = "btn2">HTML</button>
+            <button class = "btn2">CSS</button>
+            
             <h3>Tools</h3>
-            <ul>
-            <li>Numpy</li>
-            <li>Pandas</li>
-            <li>Jupiter</li>
-            <li>Git</li>
-            <li>Google colab</li>
-            <li>LaTeX</li>
-            </ul>
+            <button class = "btn2">NumPy</button>
+            <button class = "btn2">Pandas</button>
+            <button class = "btn2">Jupiter</button>
+            <button class = "btn2">Git</button>
+            <button class = "btn2">LaTeX</button>
+            
+           
+
+           
+            <div class="row">
+                <div class="column"></div>
+                <div class="column"></div>
+            </div>
         </div>
+        
+        
+        
+
     </section>
 
 <!---contact--->
-<section id="contact">
-    <div class="container">
-            <h2 class = "touch">Get in Touch</h2>
-            
+<section id="contact">      
+    <div class="container">   
         <div class="contact-us">
-            
+                 
                 <div class ="con">
+                        <h2 class = "touch">Get in Touch</h2>
                 <form action="process.php" method="post">
-                    <input type="text" name= "uname"  placeholder= "Your Name" >
-                    <input type="email"  name= "mail" placeholder="Your email" >
-                    <input type="text" name= "subject" placeholder="Suject" >
-                    <textarea name = "message" name= "message" placeholder="Message" ></textarea>
-                    <button type= "submit" class = "btn">Send</button>
+                    <input type="text" name= "uname"  placeholder= "Your Name" required class= "input-field" >
+                    <input type="email" name= "mail" placeholder="Your email" required class= "input-field">
+                    <input type="text" name= "subject" placeholder="Suject"  required class= "input-field">
+                    <textarea name = "message" name= "message" placeholder="Message" required class= "input-field"></textarea>
+                    <button type= "submit" name= "btn-send" class = "submit-btn">Send</button>
                 </form>
             </div>
             <div class = "social">
@@ -84,16 +99,15 @@
                     <li><a href = "https://www.linkedin.com/in/rehan-edin/"><i class = "fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
-            <footer>
-                <p>Rehan Edin</p>
-                <p>Copyright &copy; 2020</p>
-            </footer>
+            
         </div>
-    
-</div>
+        
+    </div>
 </section>
-
-
+<footer>
+        <p>Rehan Edin</p>
+        <p>Copyright &copy; 2020</p>
+    </footer>
 
 <script src= "main.js"></script>
 </body>

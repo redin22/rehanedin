@@ -2,12 +2,23 @@
 
     if(isset($_POST['btn-send']))
     {
-       $UserName = $_POST['UName'];
-       $Email = $_POST['Email'];
-       $Subject = $_POST['Subject'];
-       $Msg = $_POST['msg'];
+       $UserName = $_POST['uname'];
+       $Email = $_POST['mail'];
+       $Subject = $_POST['subject'];
+       $Msg = $_POST['message'];
 
-       if(empty($UserName) || empty($Email) || empty($Subject) || empty($Msg))
+       $mailTo = "rehanedin@gmail.com";
+       $headers = "From: ".$mailFrom;
+       $txt = "You have received a new email from " . $UserName.".\n\n".$Msg;
+
+       mail($mailTo, $Subject, $txt, $headers);
+      // header("Location: index.php?mailsent");
+
+
+    }
+
+
+      /* if(empty($UserName) || empty($Email) || empty($Subject) || empty($Msg))
        {
            header('location:index.php?error');
        }
@@ -23,5 +34,5 @@
  else
  {
      header("location:index.php");
- }
+ }*/
 ?>
