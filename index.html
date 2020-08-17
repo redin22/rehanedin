@@ -2,6 +2,8 @@
 <html>
     <head>
         <title id = "title">Rehan Edin</title>
+        <meta charset="UTF-8">
+        
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href= "./styles.css" rel="stylesheet" type="text/css">  
@@ -10,13 +12,13 @@
     
     <header>
     <!---Home--->
-    
+    <section id = "section1">
         <nav>
             <ul>
-                <li><a href= "index.html">Home</a></li>
-                <li><a href= "about.html">About</a></li>
-                <li><a href= "skills.html">Skills</a></li>
-                <li><a href= "contact.html">Contact</a></li>
+                <li><a href= "#section1">Home</a></li>
+                <li><a href= "#section2">About</a></li>
+                <li><a href= "#section3">Skills</a></li>
+                <li><a href= "#section4">Contact</a></li>
             </ul>
         </nav>
         <section class = "sec1">
@@ -28,10 +30,11 @@
             <h1>Rehan Edin</h1>
             <span class = "cursor"></span> <span class = "typed-txt"></span></section>
         </div>
-</header>
+    </section>
+    </header>
 
     <!---About--->
-    <section>
+    <section id = section2>
         <div class ="container">
            
             <img src="pi.jpeg" class = "image">
@@ -44,45 +47,47 @@
     </section>
 
 <!---skills--->
-    <section>
-       
+    <section id = "section3">
+            <h3 class= "skil">Skills</h3>
             <div class = "custom">
+                 
             <h3>Languages</h3>
            
-            <button class = "btn2">Java</button>
-            <button class = "btn2">Python</button>
-            <button class = "btn2">SQL</button>
-            <button class = "btn2">HTML</button>
-            <button class = "btn2">CSS</button>
+            <p class = "num">Java</p>
+            <p class = "num">Python</p>
+            <p class = "num">SQL</p>
+            <p class = "num">HTML</p>
+            <p class = "num">CSS</p>
+           
+            
             
             <h3>Tools</h3>
-            <button class = "btn2">NumPy</button>
-            <button class = "btn2">Pandas</button>
-            <button class = "btn2">Jupiter</button>
-            <button class = "btn2">Git</button>
-            <button class = "btn2">LaTeX</button>
+            <p class = "num">NumPy</p>
+            <p class = "num">Pandas</p>
+            <p class = "num">Jupiter</p>
+            <p class = "num">Git</p>
+            <p class = "num">LaTeX</p>
             
            
-
-           
-            <div class="row">
-                <div class="column"></div>
-                <div class="column"></div>
-            </div>
+    
         </div>
-        
-        
-        
-
+       
+      
+            
+           
     </section>
 
 <!---contact--->
-<section id="contact">      
+<section id = "section4">
+        <h3 class= "tal">Get in Touch</h3> 
+<section id= "contact"> 
+      
     <div class="container">   
+           
         <div class="contact-us">
-                 
+                
                 <div class ="con">
-                        <h2 class = "touch">Get in Touch</h2>
+                      
                 <form action="process.php" method="post">
                     <input type="text" name= "uname"  placeholder= "Your Name" required class= "input-field" >
                     <input type="email" name= "mail" placeholder="Your email" required class= "input-field">
@@ -94,8 +99,8 @@
             <div class = "social">
                 <ul>
                     <li><a href = "https://www.facebook.com/rehan.edin.5/"><i class = "fa fa-facebook"></i></a></li>
-                    <li><a href = "#"><i class = "fa fa-twitter"></i></a></li>
-                    <li><a href = "#"><i class = "fa fa-github"></i></a></li>
+                    <li><a href = "https://twitter.com/Rehanedin1"><i class = "fa fa-twitter"></i></a></li>
+                    <li><a href = "https://github.com/redin22"><i class = "fa fa-github"></i></a></li>
                     <li><a href = "https://www.linkedin.com/in/rehan-edin/"><i class = "fa fa-linkedin"></i></a></li>
                 </ul>
             </div>
@@ -103,6 +108,7 @@
         </div>
         
     </div>
+</section>
 </section>
 <footer>
         <p>Rehan Edin</p>
