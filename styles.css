@@ -168,7 +168,7 @@ footer{
 }
 .tal{
     background-color: rgba(241, 213, 213, 0.8);
-    padding: 45px;
+    padding: 25px;
     margin: 0px;
     text-align: center;
     margin-top: 0px;
@@ -234,17 +234,25 @@ form{
 }
 
 .con{
-    width:470px;
+    width:480px;
     background-color: white;
     box-shadow: 0 0 20px 0 #999;
-    top:1970px;
+    top:1990px;
     left:51%;
     position: absolute;
     transform: translate(-50%,-50%);
 }
+.txb textarea{
+   height:150px;
+   padding-top: 10px;
+   resize:none;
+
+   
+   
+}
 
 .social{
-    margin:270px;
+    margin:330px;
     margin-left: 340px;
 }
   .social ul{

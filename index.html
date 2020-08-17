@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href= "./styles.css" rel="stylesheet" type="text/css">  
+        <meta name= "viewport" content = "width=device-width,initial-scale=1"> 
     </head>
 <body>
     
@@ -49,8 +50,7 @@
 <!---skills--->
     <section id = "section3">
             <h3 class= "skil">Skills</h3>
-            <div class = "custom">
-                 
+            <div class = "custom">         
             <h3>Languages</h3>
            
             <p class = "num">Java</p>
@@ -59,8 +59,6 @@
             <p class = "num">HTML</p>
             <p class = "num">CSS</p>
            
-            
-            
             <h3>Tools</h3>
             <p class = "num">NumPy</p>
             <p class = "num">Pandas</p>
@@ -68,31 +66,24 @@
             <p class = "num">Git</p>
             <p class = "num">LaTeX</p>
             
-           
     
         </div>
-       
-      
-            
-           
+          
     </section>
 
 <!---contact--->
 <section id = "section4">
         <h3 class= "tal">Get in Touch</h3> 
-<section id= "contact"> 
-      
-    <div class="container">   
-           
-        <div class="contact-us">
-                
-                <div class ="con">
-                      
+<section id= "contact">     
+    <div class="container">          
+        <div class="contact-us">        
+                <div class ="con">       
                 <form action= "https://formspree.io/rehanedin@gmail.com" method="POST">
                     <input type="text" name= "uname"  placeholder= "Your Name" required class= "input-field" >
                     <input type="email" name= "mail" placeholder="Your email" required class= "input-field">
-                    <input type="text" name= "subject" placeholder="Suject"  required class= "input-field">
-                    <textarea name = "message" name= "message" placeholder="Message" required class= "input-field"></textarea>
+                    <input type="text" name= "subject" placeholder="Subject"  required class= "input-field">
+                    <div class ="txb">
+                    <textarea name = "message" name= "message" placeholder="Message" required class= "input-field"></textarea></div>
                     <button type= "submit" name= "btn-send" class = "submit-btn">Send</button>
                 </form>
             </div>
