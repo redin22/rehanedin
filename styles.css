@@ -152,6 +152,13 @@ footer{
 .me{
     text-align: center;
     margin:60px;
+    font-size:18px;
+}
+.me1{
+    text-align: center;
+    margin:60px;
+    font-size:24px;
+    font-weight: bold;
 }
 .num{
     border: 1px solid #11A8bd;
@@ -161,7 +168,7 @@ footer{
 }
 .tal{
     background-color: rgba(241, 213, 213, 0.8);
-    padding: 35px;
+    padding: 45px;
     margin: 0px;
     text-align: center;
     margin-top: 0px;
@@ -172,6 +179,8 @@ footer{
     padding:40px;
     text-align: center;
     margin: 0px;
+    font-size:30px;
+    font-weight: bold;
 }
 /*rgba(241, 213, 213, 0.8);
 */
@@ -180,8 +189,8 @@ footer{
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    padding-top: 130px;
-    padding-bottom: 70px;
+    padding-top: 100px;
+    padding-bottom: 30px;
     text-align: center;
     height: 500px;
 }
@@ -225,18 +234,18 @@ form{
 }
 
 .con{
-    width:500px;
+    width:470px;
     background-color: white;
     box-shadow: 0 0 20px 0 #999;
-    top:1890px;
-    left:45%;
+    top:1970px;
+    left:51%;
     position: absolute;
     transform: translate(-50%,-50%);
 }
 
 .social{
     margin:270px;
-    margin-left: 240px;
+    margin-left: 340px;
 }
   .social ul{
     display: flex;
