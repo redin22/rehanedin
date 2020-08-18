@@ -40,7 +40,7 @@ header nav{
     position: fixed;
     width: 100%;
     padding:10px 90px;
-    background: white;
+    background:#f2f3f4;
     box-sizing:border-box;
 }
 header nav ul{
@@ -68,7 +68,8 @@ header a:hover{
 }
 .custom{
     column-count: 2;
-    background-color: antiquewhite;
+    background-color: #6bb3b8;
+    background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
     background-size:cover;
     padding:12px;
 }
@@ -107,7 +108,7 @@ header a:hover{
 }
 .button{
     position: absolute;
-    top: 70%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%,-50%);
     display: inline-block;
@@ -115,24 +116,21 @@ header a:hover{
 }
 
 .btn{
-    border: 1px solid green;
+    border: 1px solid #6b2d00;
     padding: 10px 30px;
-    color:green;
+    color: #6b2d00;
     text-decoration: none;
+    background-color: burlywood;
+    font-weight:bold;
+    border-radius:8px;
 }
 
 .btn:hover{
     background-color: burlywood;
     color: #000;
 }
-.btn2{
-    border: 1px solid green;
-    padding: 10px 30px;
-    color:green;
-    text-decoration: none;
-}
 footer{
-    padding: 20px;
+    padding: 35px;
     color: red;
     text-align: center;
     line-height: 0.2;
@@ -157,17 +155,21 @@ footer{
 .me1{
     text-align: center;
     margin:60px;
-    font-size:24px;
+    font-size:32px;
     font-weight: bold;
+    font-family:Merienda;
 }
 .num{
-    border: 1px solid #11A8bd;
+    border: 1px solid rgba(212, 223, 224, 0.781);
     border-radius: 5px;
     padding: 10px;
+    background-color: gainsboro;
+    font-size:20px; 
     
 }
 .tal{
-    background-color: rgba(241, 213, 213, 0.8);
+    background-color: #12302e;
+    background-image: url("https://www.transparenttextures.com/patterns/church.png");
     padding: 25px;
     margin: 0px;
     text-align: center;
@@ -175,17 +177,19 @@ footer{
     
 }
 .skil{
-    background-color: antiquewhite;
+    background-color:#6bb3b8;;
     padding:40px;
     text-align: center;
     margin: 0px;
-    font-size:30px;
+    font-size:32px;
     font-weight: bold;
+    font-family: Merienda;
 }
 /*rgba(241, 213, 213, 0.8);
 */
 #contact{
-    background-color: rgba(241, 213, 213, 0.8);
+    background-color: #12302e;
+    background-image: url("https://www.transparenttextures.com/patterns/church.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -205,12 +209,7 @@ footer{
 .button2{
     padding-bottom: 20px;
 }
-/*
-.touch{
-    padding-top: 0px;
-    margin-top: 0px;
-}
-*/
+
 form{
     margin:20px;
 }
@@ -241,24 +240,22 @@ form{
     left:51%;
     position: absolute;
     transform: translate(-50%,-50%);
+    display:flex;
 }
 .txb textarea{
    height:150px;
    padding-top: 10px;
-   resize:none;
-
-   
-   
+   resize:none;  
 }
 
 .social{
-    margin:330px;
-    margin-left: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
   .social ul{
     display: flex;
-    position: absolute;
-    
+    position: absolute;  
     margin-left: 10px;
   }
   .social ul li{
@@ -270,7 +267,6 @@ form{
     line-height: 60px;
     transition: .6s;
     color: #000;
-
   }
   .social ul li a{
     position: relative;
