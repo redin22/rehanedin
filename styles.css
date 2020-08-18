@@ -131,7 +131,7 @@ header a:hover{
 }
 footer{
     padding: 35px;
-    color: red;
+    color: white;
     text-align: center;
     line-height: 0.2;
     font-size: 15px;
@@ -174,10 +174,19 @@ footer{
     margin: 0px;
     text-align: center;
     margin-top: 0px;
+    font-size:38px;
+    font-weight: bold;
+    font-family: Merienda;
+    color:white;
     
 }
+.lan{
+    text-align:center;
+    font-family: Berkshire Swash;
+}
 .skil{
-    background-color:#6bb3b8;;
+    background-color:#6bb3b8;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
     padding:40px;
     text-align: center;
     margin: 0px;
@@ -196,7 +205,7 @@ footer{
     padding-top: 100px;
     padding-bottom: 30px;
     text-align: center;
-    height: 500px;
+    height: 530px;
 }
 .button{
     position: absolute;
@@ -236,11 +245,10 @@ form{
     width:480px;
     background-color: white;
     box-shadow: 0 0 20px 0 #999;
-    top:1990px;
     left:51%;
     position: absolute;
     transform: translate(-50%,-50%);
-    display:flex;
+    margin-top:120px;
 }
 .txb textarea{
    height:150px;
@@ -256,7 +264,7 @@ form{
   .social ul{
     display: flex;
     position: absolute;  
-    margin-left: 10px;
+    margin-top:380px;
   }
   .social ul li{
       list-style: none;
