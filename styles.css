@@ -63,15 +63,18 @@ header a:hover{
 }
 
 .name{
-    padding:130px;
+    padding:150px;
     margin-left: 0px;
 }
 .custom{
     column-count: 2;
-    background-color: #6bb3b8;
-    background-image: url("https://www.transparenttextures.com/patterns/lyonnette.png");
-    background-size:cover;
+   
+    background-color: #617c91;
+    background-image: url("https://www.transparenttextures.com/patterns/gravel.png");
     padding:12px;
+    padding-left: 130px;
+    padding-right: 130px;
+    column-gap: 50px;
 }
 .custom li{
     border:1px solid #777;
@@ -92,16 +95,16 @@ header a:hover{
 .cursor{
     display: inline-block;
     width:3px;
-    background-color: #ccc;
-    
+    background-color: crimson;
+    margin-left:0.1rem;
     animation: blink 1s infinite;
 }
 .cursor.typing{
-    animation: none;
+    animation:none;
 }
 @keyframes blink{
-    0%{background-color: #ccc;}
-    49%{background-color: #ccc;}
+    0%{background-color: crimson;}
+    49%{background-color: crimson;}
     50%{background-color:transparent;}
     99%{background-color:transparent;}
     100%{background-color:#ccc;}
@@ -199,7 +202,7 @@ footer{
 #contact{
     background-color: #12302e;
     background-image: url("https://www.transparenttextures.com/patterns/church.png");
-    background-size: cover;
+   
     background-position: center;
     background-attachment: fixed;
     padding-top: 100px;
