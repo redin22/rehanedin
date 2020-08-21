@@ -199,8 +199,7 @@ footer{
     font-weight: bold;
     font-family: Merienda;
 }
-/*rgba(241, 213, 213, 0.8);
-*/
+
 #contact{
     background-color: #12302e;
     background-image: url("https://www.transparenttextures.com/patterns/church.png");
@@ -233,6 +232,7 @@ form{
     margin-left:18px;
     border:none;
     border-radius: 20px;
+    background-color: forestgreen;
 }
 .input-field{
     width:400px;
@@ -266,22 +266,22 @@ form{
     justify-content: center;
     align-items: center;
 }
-  .social ul{
+.social ul{
     display: flex;
     position: absolute;  
     margin-top:380px;
   }
-  .social ul li{
-      list-style: none;
-      margin: 0 15px;
+.social ul li{
+    list-style: none;
+    margin: 0 15px;
   }
-  .social ul li .fa{
+.social ul li .fa{
     font-size: 30px;
     line-height: 60px;
     transition: .6s;
     color: #000;
   }
-  .social ul li a{
+.social ul li a{
     position: relative;
     display: block;
     width:60px;
@@ -292,7 +292,7 @@ form{
     box-shadow: 0 5px 4px rgba(0,0,0,.5);
   }
   
-  .social ul li a:hover{
+.social ul li a:hover{
     transform: translate(0,-10px);
 }
 .social ul li:nth-child(1) a:hover{
