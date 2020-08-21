@@ -145,10 +145,11 @@ footer{
   
 }
 .image{
-    width: 350px;
+   
     height:350px;
     margin:6px;
     float:right;   
+    padding:10px;
 }
 .me{
     text-align: center;
@@ -186,6 +187,7 @@ footer{
 .lan{
     text-align:center;
     font-family: Berkshire Swash;
+    color:white;
 }
 .skil{
     background-color:#6bb3b8;
